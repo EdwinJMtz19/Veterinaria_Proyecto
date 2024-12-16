@@ -16,6 +16,8 @@ import java.util.logging.Logger;
  */
 public class Database {
     
+    //conexion a base
+    
     protected Connection conexion;
     private final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     private final String DB_URL = "jdbc:mysql://localhost/veterinaria";
