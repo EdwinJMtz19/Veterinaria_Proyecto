@@ -262,6 +262,89 @@ En la tabla Veterinario se almacenan los datos de los veterinarios que trabajan 
 
   ```
 
+
+## Explicacion del Programa
+
+![image](https://github.com/user-attachments/assets/95f578da-b2cd-4c08-813c-163cc32f1065)
+
+Al ejecutar el programa, nos aparecera esta ventana en la cual debemos iniciar sesion con nuestro usuario, contraseña y elegir el puesto de trabajo que tenemos, ya sea administrador, empleado comun o veterinario
+
+
+![image](https://github.com/user-attachments/assets/08c2e50b-4d8c-49e8-8e90-15b7097c8c80)
+
+Al iniciar sesion, nos aparecera el siguiente menu, nos dara 4 diferentes opciones para realizar los cuales son, mostrar citas, clientes, empleados y mascotas, dentro de cada una podemos realizar diferentes acciones
+
+
+
+![image](https://github.com/user-attachments/assets/1dbac969-6f92-4a05-815a-6109201ee624)
+En el primer boton de mostrar citas nos aparecera la tabla con las citas agendadas dentro de la veterinaria, las citas son agendadas desde el apartado de mascotas.
+Para eliminar una cita es necesario ingresar como empleado o veterinario
+
+
+
+![image](https://github.com/user-attachments/assets/b7bf970a-a52a-4dcc-b1cf-911b5376e4e7)
+En el boton de mascotas, nosotros podremos ver las mascotas registradascon sus datos en el sistema, y siguiendo con lo anterior aqui tenemos la opcion para agregar una cita
+
+Para agregar la cita lo que debemos hacer es seleccionar la mascota registrada en el sistema a la que queremos agendarle una cita y despues presionar el boton Agregar Cita.
+Para verificar que la cita se guardo, volver al apartado de mostrar Citas
+![image](https://github.com/user-attachments/assets/1766e433-1c0c-49c2-90f7-171ca319d980)
+
+
+
+![image](https://github.com/user-attachments/assets/66cf3b1b-776f-4433-85b0-7d9c5cd1b6bd)
+En la seccion de Clientes, podremos realizar el registro, actualizacion y eliminacion del cliente dentro del sistema.
+Para poder agregar un cliente debemos presionar la opcion Agregar
+![image](https://github.com/user-attachments/assets/800d22e7-347d-4ea1-a452-a72dc537079b)
+Al presionar el boton agregar nos aparecera esta ventana en la cual pondremos el nombre y correo. El correo debe se un correo en el que podamos mandar las citas o recetas medicas de la mascota
+![image](https://github.com/user-attachments/assets/084c363f-1c8a-4a47-934e-de1d582e31d9)
+En caso de querer modificar los datos del cliente, o directamente borrarlo del sistema, primero debemos seleccionar el cliente deseado y presionar el boton de la accion que queremos realizar
+
+
+![image](https://github.com/user-attachments/assets/d0342970-3776-4cb6-a8e1-84b15d284e93)
+Dentro del apartado de Empleados tendremos la siguiente tabla, en la cual podremos ver a nuestros empleados registrados en el sistema.
+Las operaciones a realizar son iguales al de agregar cliente, pero con una diferencia al agregar un empleado
+![image](https://github.com/user-attachments/assets/60d9571e-fc4e-4e97-976e-9a7b7386338a)
+Para agregar un usuario al sistema debemos ingresar su nombre, su correo, escogemos el rol que va a tener y asignamos su contraseña de ingreso al sistema.
+
+### NOTA: EL NOMBRE DEBE TENER AL MENOS 3 PALABRAS, DE LO CONTRARIO EL NUEVO USUARIO NO SE GUARDARA.  Ejemplo val: Agustin Mendez Juarez
+Ejemplo valido: Agustin Mendez Juarez
+Ejemplo invalido: Agustin Mendez
+
+
+
+
+Si ingresamos al sistema como veterinario, solo tendremos 3 opciones, Mascotas, Citas y un nuevo apartado llamado Recetas
+![image](https://github.com/user-attachments/assets/90a7dd4c-648c-413c-8ba5-e666adae3fde)
+
+El apartado de mascota contendra la misma tabla que en usuario y empleado
+![image](https://github.com/user-attachments/assets/da2c33e4-6e1f-449f-9e66-2913142a6200)
+Solo hay una diferencia y es que aparece un nuevo boton llamado realizar receta, el cual nos creara una receta en la cual podemos poner recomendaciones a la mascota o algun medicamento
+![image](https://github.com/user-attachments/assets/6e795a5e-b642-4379-8441-16a45fbcb6fd)
+Para realizar una receta, primero debemos seleccionar la mascota a la que le haremos la receta medica y presionar el boton realizar receta
+![image](https://github.com/user-attachments/assets/2a52fefe-c225-4996-9128-ef6dc554a367)
+Al hacer esto tendremos el formato de la receta en donde pondremos nuestras recomendaciones .
+Despues de terminar de escribir las recomendaciones, presionaremos el boton enviar y automaticamente se enviara un correo electronico al correo del usuario asociado a esa mascota
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Video de explicacion del programa de veterinaria
 
 ### Uso del sistema con rol administrador
