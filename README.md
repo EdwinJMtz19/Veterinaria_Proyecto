@@ -277,17 +277,30 @@ Al iniciar sesion, nos aparecera el siguiente menu, nos dara 4 diferentes opcion
 
 
 ![image](https://github.com/user-attachments/assets/1dbac969-6f92-4a05-815a-6109201ee624)
+
 En el primer boton de mostrar citas nos aparecera la tabla con las citas agendadas dentro de la veterinaria, las citas son agendadas desde el apartado de mascotas.
 Para eliminar una cita es necesario ingresar como empleado o veterinario
 
 
 
+
+
+
+
 ![image](https://github.com/user-attachments/assets/b7bf970a-a52a-4dcc-b1cf-911b5376e4e7)
+
 En el boton de mascotas, nosotros podremos ver las mascotas registradascon sus datos en el sistema, y siguiendo con lo anterior aqui tenemos la opcion para agregar una cita
+
+
 
 Para agregar la cita lo que debemos hacer es seleccionar la mascota registrada en el sistema a la que queremos agendarle una cita y despues presionar el boton Agregar Cita.
 Para verificar que la cita se guardo, volver al apartado de mostrar Citas
 ![image](https://github.com/user-attachments/assets/1766e433-1c0c-49c2-90f7-171ca319d980)
+
+
+
+
+
 
 
 
